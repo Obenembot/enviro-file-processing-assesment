@@ -28,3 +28,6 @@ check this api call GET http://localhost:8080/api/environmental-data/
 
 ```
 
+### Nice to Have.
+No Information was provided as to extra validate 
+of what fields to look at as to know when to mark the file as fail to process
