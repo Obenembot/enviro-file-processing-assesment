@@ -1,0 +1,4 @@
+location,latitude,longitude,temperature_value,temperature_unit,humidity_value,humidity_unit,pm25_value,pm25_unit,pm10_value,pm10_unit,o3_value,o3_unit
+"City A",37.7749,-122.4194,22.5,Celsius,60,percent,10,µg/m³,15,µg/m³,30,ppb
+"City B",40.7128,-74.0060,18.7,Celsius,55,percent,12,µg/m³,20,µg/m³,35,ppb
+"City C",34.0522,-118.2437,24.3,Celsius,65,percent,8,µg/m³,18,µg/m³,28,ppb
