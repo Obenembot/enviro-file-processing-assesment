@@ -1,6 +1,7 @@
 package com.enviro.assessment.grad001.bridgettetambe.exception;
 
 import jakarta.servlet.ServletException;
+import org.springframework.data.mapping.PropertyReferenceException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -29,9 +30,13 @@ public class ExceptionAdvice extends RuntimeException {
 
 
     @ExceptionHandler
-    public ResponseEntity servletExceptionException(ServletException exception) {
+    public ResponseEntity exception(ServletException exception) {
         return ResponseEntity.ok(exception.getMessage());
     }
 
+    @ExceptionHandler
+    public ResponseEntity exception(PropertyReferenceException exception) {
+        return ResponseEntity.ok(exception.getMessage());
+    }
 
 }
